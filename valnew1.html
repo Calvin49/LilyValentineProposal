@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+  <title>Lilybun's Valentine Proposal</title>
+  <style>
+    body {
+      background-image: url(30-mailbox_5x.gif);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+      display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            height: 90vh; /* Full screen height */
+            background-color: #f0f0f0; /* Optional background */
+            margin: 0;
+    }
+    img {
+            max-width: 700%; /* Ensures responsiveness */
+            max-height: 700vh; /* Prevents overflow */
+        }
+
+    .text-overlay {
+            
+            position: absolute;
+            top: 50%; /* Center vertically */
+            left: 50%; /* Center horizontally */
+            transform: translate(-50%, -50%);
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+            font-weight: bold;
+            background: rgba(0, 0, 0, ); /* Optional background for readability */
+            padding: 10px;
+            border-radius: 5px;
+            font-family: "Pixelify Sans", serif;}
+
+     .buttontext-overlay {
+            position: absolute;
+            top: 58%; /* Center vertically */
+            left: 47%; /* Center horizontally */
+            transform: translate(-50%, -50%);
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+            font-weight: bold;
+            background: rgba(0, 0, 0, ); /* Optional background for readability */
+            padding: 10px;
+            border-radius: 5px;
+            font-family: "Pixelify Sans", serif;
+            cursor: default;}
+        
+      button{ 
+        font-family: "Pixelify Sans", serif;
+        font-size: 20px;
+        padding: 10px;
+        padding-top: 5px; 
+        padding-bottom: 5px;
+        border: none;
+        color:azure;
+        margin : 20px;
+        }
+      
+      .yes:hover {
+            background-color: #ff1a1a;
+            transform: scale(0.9);
+        }
+        .no:hover {
+            background-color: #999999;
+            transform: scale(0.9)
+        }
+        
+      .btn{
+        font-size: 20px;
+        position: absolute;
+      }
+      .flex-box{
+        display:flexcontainer
+        
+      }
+      .envelope:hover {
+            transform: scale(0.99); /* Shrinks to 80% of the original size */
+        }
+    </style>
+    
+    
+</head>
+<body>
+  <img style="width: 100px; height:100px" src="happy-tuesday.gif">
+
+
+  <div>
+    <img src="usable2.png" alt="Centered Image" class="envelope">
+    <div class="text-overlay">
+      <p align="center">LilyBun</p>
+       <p>Will you be my Valentine? </p>
+    </div>
+    <div class="buttontext-overlay">
+      <div class="flex-box">
+        <a href="me.html"><button class="yes" style="background-color: darkgreen;">YES</button></a>
+      
+        
+        <a href="valnew2.html"><button  class="btn no" style="background-color: darkred; ">NO</button></a>
+      </div>
+    </div>
+  </div>
+
+
+
+  <img style="width: 100px; height:100px" src="bubududu-kiss.gif">
+</body>
+</html>
